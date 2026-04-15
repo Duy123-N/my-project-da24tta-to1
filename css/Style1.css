@@ -1,1 +1,47 @@
-﻿
+﻿div.container 
+*{ 
+margin: 0px;
+padding: 0px;
+border-radius:2px;
+}
+div.container{
+    
+    background-color: blanchedalmond;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 40px;
+    border-radius:6px ;
+
+}
+form#frmLogin{
+    background-color: azure;
+    padding: 30px;
+    width:300px;
+}
+h3#title{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color:rebeccapurple;
+
+}
+div.form-group{
+   margin-bottom: 5px;
+   margin-top: 6px;
+   color: coral;
+}
+
+input.form-control{
+    width: 100%;
+    display: block;
+    padding: 1px;
+}
+input.button{
+    background-color: darksalmon;
+    border-radius:5px;
+    padding: 2px;
+    border: 2px;
+    color: black;
+}
+body{
+    background-color: cadetblue;
+}
