@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+
+<html lang = "vi">
+
+
+<head>
+
+<title> Giới thiệu về sản phẩm </title>
+
+
+<meta charset = "utf-8">
+
+
+
+   </head>
+	<body>
+
+	<script>
+
+		 const myDiv = document.createElement("div");
+			myDiv.setAttribute("class","product-item");
+
+			//khởi tạo Div con 1
+			const myDiv1 = document.createElement("class", "product-image");
+			myDiv1.setAttribute("class", "product-image");
+
+			const productImg = document.createElement("img");
+			productImg.setAttribute("src","../assets/images/hoalan.jpg");
+			productImg.setAttribute("alt","Hoa Lan");
+			myDiv1.appendChild(productImg);
+			myDiv.appendChild(myDiv1);
+
+			//khoi tao Div con 2
+			const myDiv2 = document.createElement("class", "product-info");
+			myDiv2.setAttribute("class","product-info");
+			myDiv.appendChild(myDiv2);
+			//Khởi tạo tên
+			const productName = document.createElement("p");
+			const textName = document.createTextNode("Hoa Lan");
+			myDiv2.appendChild(textName);
+			myDiv2.appendChild(productName);
+
+			//Khởi tạo giá 
+			const productPrice = document.createElement("p");
+			const textPrice = document.createTextNode("70 nghìn/Chậu");
+			myDiv2.appendChild(textPrice);
+			myDiv2.appendChild(productPrice);
+
+         
+		//Tạo đường dẫn
+     		const mylink = document.createElement("a");
+			mylink.href = "#";
+			const textlink = document.createTextNode("Thông tin chi tiết về Hoa Lan");
+			mylink.appendChild(textlink);
+			myDiv.appendChild(mylink);
+		
+  			//Show Div cha lên body 
+			document.body.appendChild(myDiv);
+
+			</script>
+			<div href = "../js/lib.js">
+				<button onclick="add()"></button>
+
+			</div>
+		
+	</body>
+
+</html>
+
